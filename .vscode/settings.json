@@ -11,7 +11,8 @@
             "name": "MySQL Local",
             "database": "DMWdb",
             "username": "root",
-            "password": "Ul1$nomail"
+            "password": "Ul1$nomail",
+            "connectionTimeout": 15
         }
     ]
 }
