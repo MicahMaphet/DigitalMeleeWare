@@ -1,7 +1,7 @@
 #NavBar {
     background-color:rgb(7, 15, 15);
     width: 100%;
-    height: 100px;
+    height: 60px;
     position: fixed;
     left: 0%;
     top: 0%;
@@ -10,12 +10,13 @@
     z-index: 9;
     border: 1px solid;
     border-color: rgb(23, 26, 27);
-    opacity: 0.99;
+    opacity: 0.985;
 }
 h1 {
     position: fixed;
     z-index:10;
     padding: 7px;
+    top: -15px;
     color: rgb(228, 234, 235);
 }
 p {
@@ -29,9 +30,20 @@ p {
     background-color:rgb(10, 22, 22);
     width: 100%;
     height: 2000px;
-    top: 100px;
+    top: 60px;
     left: 0%;
     position: absolute;
     padding: 0px;
     margin: 0px;
+}
+#navsearch {
+    width: 200px;
+    position: relative;
+    background-color: rgb(28, 53, 53);
+    top: -5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-style: hidden;
+    border-radius: 7px;
 }
