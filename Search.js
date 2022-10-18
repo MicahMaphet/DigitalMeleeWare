@@ -2,6 +2,7 @@ var keyPressed = new Array(20)
 keyPressed["Enter"] = false
 var searchReady = false
 let input = ''
+
 function Search() {
     if(searchReady) {
         input = document.getElementById('navsearch').value
@@ -11,7 +12,6 @@ function Search() {
         searchReady = false
     }
 }
-
 
 document.addEventListener("keydown", event => {
     if (event.key === "Enter") {
