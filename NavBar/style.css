@@ -26,9 +26,7 @@ p {
     color: rgb(228, 234, 235);
 }
 
-body {
-    background-color:rgb(10, 22, 22);
-}
+
 #navsearch {
     width: 200px;
     position: relative;
@@ -51,5 +49,7 @@ body {
     color: rgb(209, 238, 243);
     position: relative;
     top: -15px;
-    left: 5px
+    left: 5px;
+    height: 100%;
+    font-weight: 700;
 }
